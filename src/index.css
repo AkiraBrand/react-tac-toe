@@ -1,6 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+</style>
+
+* {
+  box-sizing: border-box;
+}
+
 body {
-  font: 14px "Century Gothic", Futura, sans-serif;
+  font-family: 'Bubblegum Sans', cursive;
   margin: 20px;
+  font-size: 80px;
+  color: #FFB900;
+  background-color: #1AAFD0;
 }
 
 ol, ul {
@@ -18,18 +28,19 @@ ol, ul {
 }
 
 .square {
-  background: #fff;
-  border: 1px solid #999;
+  background: #3BE8B0;
+  border: 1px solid#FC636B;
+  color: #6A67CE;
   float: left;
-  font-size: 24px;
+  font-size: 120px;
   font-weight: bold;
-  line-height: 34px;
-  height: 34px;
+  line-height: 260px;
+  height: 200px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 200px;
 }
 
 .square:focus {
@@ -43,6 +54,7 @@ ol, ul {
 .game {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .game-info {
